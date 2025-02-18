@@ -24,6 +24,3 @@ cache
 out
 .vscode
 .idea
-
-# Lib folders
-eth-contracts/lib/*
