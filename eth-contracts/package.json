@@ -1,0 +1,12 @@
+{
+  "name": "eth-contracts",
+  "version": "1.0.0",
+  "description": "**Foundry is a blazing fast, portable and modular toolkit for Ethereum application development written in Rust.**",
+  "scripts": {
+    "build": "forge build",
+    "test": "forge test",
+    "format": "forge fmt"
+  },
+  "author": "Abdulla Faraz <abdulla.faraz@gmail.com>",
+  "license": "MIT"
+}
