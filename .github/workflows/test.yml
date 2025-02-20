@@ -23,21 +23,24 @@ jobs:
       - name: Install Foundry
         uses: foundry-rs/foundry-toolchain@v1
 
-      - name: Show Forge version
-        run: |
-          forge --version
+#      - name: Show Forge version
+#        run: |
+#          forge --version
 
       - name: Run Forge fmt
         run: |
+          cd eth-contracts
           forge fmt --check
         id: fmt
 
       - name: Run Forge build
         run: |
+          cd eth-contracts
           forge build --sizes
         id: build
 
       - name: Run Forge tests
         run: |
+            cd eth-contracts
           forge test -vvv
         id: test
