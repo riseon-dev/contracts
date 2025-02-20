@@ -5,12 +5,15 @@
   "scripts": {
     "build": "turbo build",
     "test": "turbo test",
-    "format": "turbo format"
+    "format": "turbo format",
+    "prepare": "husky"
   },
   "author": "Abdulla Faraz <abdulla.faraz@gmail.com>",
   "license": "MIT",
   "packageManager": "pnpm@10.4.1",
   "devDependencies": {
+    "husky": "9.1.7",
+    "lint-staged": "15.4.3",
     "turbo": "2.4.2"
   }
 }
